@@ -1,0 +1,75 @@
+header{
+    background-color: midnightblue;
+    padding: 20px 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+div.photo {
+    display: inline-block;
+    text-align: center;
+}
+
+.name{
+  color: white;
+  font-size: 30px;
+  display: block;
+  }
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: teal;
+    font-size: 40px;
+}
+
+nav a:hover{
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
+.svg-icon{
+  filter: invert(47%) sepia(31%) saturate(1984%) hue-rotate(156deg) brightness(98%) contrast(105%);
+  width: 70px;
+  height: auto;
+}
+
+.svg-icon:hover{
+  filter: invert(26%) sepia(87%) saturate(1992%) hue-rotate(161deg) brightness(90%) contrast(101%);
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.aboutme{
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+}
+
+.facpya{
+  width: 200px;
+}
