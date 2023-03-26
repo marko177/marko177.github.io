@@ -46,6 +46,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
+
 .svg-icon{
   filter: invert(47%) sepia(31%) saturate(1984%) hue-rotate(156deg) brightness(98%) contrast(105%);
   width: 70px;
@@ -53,6 +54,16 @@ nav a:hover{
 }
 
 .svg-icon:hover{
+  filter: invert(26%) sepia(87%) saturate(1992%) hue-rotate(161deg) brightness(90%) contrast(101%);
+}
+
+.svg-icon-ext{
+  filter: invert(47%) sepia(31%) saturate(1984%) hue-rotate(156deg) brightness(98%) contrast(105%);
+  width: 70px;
+  height: auto;
+}
+
+.svg-icon-ext:hover{
   filter: invert(26%) sepia(87%) saturate(1992%) hue-rotate(161deg) brightness(90%) contrast(101%);
 }
 
@@ -72,6 +83,7 @@ footer{
 
 .facpya{
   width: 200px;
+   transform: scaleX(-1);
 }
 
 @media (max-width: 768px) {
@@ -82,6 +94,17 @@ footer{
   nav {
     position: initial;
     padding-left: 5%;
+  }
+
+  nav li{
+  margin: 0;
+}
+
+  .svg-icon-ext {
+    width: 62px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 5px;
   }
 
   div.photo {
