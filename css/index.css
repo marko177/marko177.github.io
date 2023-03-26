@@ -28,7 +28,7 @@ div.photo {
 nav{
     position: absolute;
     top: 110px;
-    right: 0;
+    right: 100px;
 }
 
 nav li{
@@ -73,3 +73,19 @@ footer{
 .facpya{
   width: 200px;
 }
+
+@media (max-width: 768px) {
+
+  .box {
+    width: auto;
+  }
+  nav {
+    position: initial;
+    padding-left: 5%;
+  }
+
+  div.photo {
+    display: block;
+  }
+}
+
